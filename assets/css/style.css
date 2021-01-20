@@ -1,0 +1,64 @@
+:root {
+  --gray: #707070;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+#cuppons .card-text {
+  font-size: 1.3rem;
+}
+
+#contact h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+#cuppons .cuppon-name {
+  color: var(--gray);
+}
+
+#cuppons .cuppon-address {
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+
+#cuppons .cuppon-address i {
+  font-size: 0.65rem;
+}
+
+#cuppons .price-left {
+  color: var(--gray);
+}
+
+#cuppons .price-right {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-weight: 300;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 300;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-weight: 300;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 300;
+}
+
+footer p {
+  line-height: normal;
+  color: var(--gray);
+}
